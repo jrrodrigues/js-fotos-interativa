@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Imagens</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main>
+        <div id="image">
+            Passe o mouse sobre uma imagem abaixo para exibir aqui
+        </div>
+
+        <div class="thumbnail-container">
+            <img class="previewPic" onmouseover="upDate(this)" onmouseout="unDo()" src="imagens/pic1.jpg" alt="Câmara de luz de um farol.">
+            <img class="previewPic" onmouseover="upDate(this)" onmouseout="unDo()" src="imagens/pic2.jpg" alt="Vários pássaros coloridos empoleirados em um galho.">
+            <img class="previewPic" onmouseover="upDate(this)" onmouseout="unDo()" src="imagens/pic3.jpg" alt="Flor roxa com folhas verdes.">
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
